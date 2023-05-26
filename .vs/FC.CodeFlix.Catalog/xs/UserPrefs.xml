@@ -10,10 +10,9 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="FC.Codeflix.Catalog" expanded="True">
-            <Node name="src" expanded="True">
-              <Node name="FC.Codeflix.Catalog.Domain" expanded="True" selected="True" />
-            </Node>
+          <Node name="FC.Codeflix.Catalog" expanded="True" selected="True">
+            <Node name="src" expanded="True" />
+            <Node name="tests" expanded="True" />
           </Node>
         </State>
       </Pad>

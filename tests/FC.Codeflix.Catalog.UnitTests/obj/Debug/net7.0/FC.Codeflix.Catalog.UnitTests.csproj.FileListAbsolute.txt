@@ -111,6 +111,9 @@
 /Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/obj/Debug/net7.0/FC.Codeflix.Catalog.UnitTests.pdb
 /Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/obj/Debug/net7.0/FC.Codeflix.Catalog.UnitTests.genruntimeconfig.cache
 /Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/obj/Debug/net7.0/ref/FC.Codeflix.Catalog.UnitTests.dll
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net7.0/MediatR.dll
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net7.0/MediatR.Contracts.dll
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Estudo\FullCycle\Codeflix\tests\FC.Codeflix.Catalog.UnitTests\bin\Debug\net7.0\CoverletSourceRootsMapping_FC.Codeflix.Catalog.UnitTests
 C:\Estudo\FullCycle\Codeflix\tests\FC.Codeflix.Catalog.UnitTests\bin\Debug\net7.0\testhost.dll
 C:\Estudo\FullCycle\Codeflix\tests\FC.Codeflix.Catalog.UnitTests\bin\Debug\net7.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll

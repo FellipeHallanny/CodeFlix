@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "mw5UZmrGfO7c4l8VEDGZfl4HZSRbHWC6LJzEl8rQGM74WeLwLHQQPQSOvGzfbn8tg/RJhuUD0z6Jjs9E3D/Ebw==",
+  "dgSpecHash": "8kjJWxkY3+zILtFGRj+RB0Cn4Yp6PAVUmrhaQOFPHAcIdCEUt4APgqZTISwV6B3yDFcH6JoKtMYOfidDiLHbyw==",
   "success": true,
-  "projectFilePath": "C:\\Estudo\\FullCycle\\Codeflix\\src\\FC.Codeflix.Catalog.Domain\\FC.Codeflix.Catalog.Domain.csproj",
+  "projectFilePath": "/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Domain/FC.Codeflix.Catalog.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\fellipeb\\.nuget\\packages\\opencovertocoberturaconverter\\0.3.4\\opencovertocoberturaconverter.0.3.4.nupkg.sha512"
+    "/Users/fellipehallannysilvabatista/.nuget/packages/opencovertocoberturaconverter/0.3.4/opencovertocoberturaconverter.0.3.4.nupkg.sha512"
   ],
   "logs": []
 }

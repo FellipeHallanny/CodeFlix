@@ -5,10 +5,78 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab26a047-e3c4-4c93-bde7-3bc5cd5bcf2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/Application/GetCategory/GetCategoryTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/Application/GetCategory/GetCategoryTestFixture.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/Exceptions/ApplicationException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/Exceptions/NotFoundException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/UseCases/Category/Common/CategoryModelOutput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/UseCases/Category/GetCategory/IGetCategory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FC.CodeFlix.Catalog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FC.CodeFlix.Catalog/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/FC.Codeflix.Catalog.UnitTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/FC.Codeflix.Catalog.UnitTests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FC.Codeflix.Catalog.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/FC.Codeflix.Catalog.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/FC.Codeflix.Catalog.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/FC.Codeflix.Catalog.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/UseCases/Category/CreateCategory/CreateCategory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/UseCases/Category/CreateCategory/CreateCategory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/UseCases/Category/CreateCategory/CreateCategoryInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/UseCases/Category/CreateCategory/CreateCategoryInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/UseCases/Category/CreateCategory/ICreateCategory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/UseCases/Category/CreateCategory/ICreateCategory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/UseCases/Category/GetCategory/GetCategory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/UseCases/Category/GetCategory/GetCategory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/UseCases/Category/GetCategory/GetCategoryInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/UseCases/Category/GetCategory/GetCategoryInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/bin/Debug/net7.0/FC.Codeflix.Catalog.Application.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/bin/Debug/net7.0/FC.Codeflix.Catalog.Application.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/bin/Debug/net7.0/FC.Codeflix.Catalog.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/bin/Debug/net7.0/FC.Codeflix.Catalog.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/bin/Debug/net7.0/FC.Codeflix.Catalog.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/bin/Debug/net7.0/FC.Codeflix.Catalog.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/bin/Debug/net7.0/FC.Codeflix.Catalog.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/bin/Debug/net7.0/FC.Codeflix.Catalog.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/bin/Debug/net7.0/FC.Codeflix.Catalog.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/bin/Debug/net7.0/FC.Codeflix.Catalog.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/FC.Codeflix.Catalog.Application.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/FC.Codeflix.Catalog.Application.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/FC.Codeflix.Catalog.Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/FC.Codeflix.Catalog.Application.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/FC.Codeflix.Catalog.Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/FC.Codeflix.Catalog.Application.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/FC.Codeflix.Catalog.Application.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/FC.Codeflix.Catalog.Application.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/FC.Codeflix.Catalog.Application.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/FC.Codeflix.Catalog.Application.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/FC.Codeflix.Catalog.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/FC.Codeflix.Catalog.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/FC.Codeflix.Catalog.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/FC.Codeflix.Catalog.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/ref/FC.Codeflix.Catalog.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/ref/FC.Codeflix.Catalog.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/refint/FC.Codeflix.Catalog.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/refint/FC.Codeflix.Catalog.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/FC.Codeflix.Catalog.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/FC.Codeflix.Catalog.Application.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/FC.Codeflix.Catalog.Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/FC.Codeflix.Catalog.Application.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/bin/Debug/net7.0/FC.Codeflix.Catalog.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/bin/Debug/net7.0/FC.Codeflix.Catalog.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/bin/Debug/net7.0/FC.Codeflix.Catalog.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/bin/Debug/net7.0/FC.Codeflix.Catalog.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/FC.Codeflix.Catalog.Domain.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/FC.Codeflix.Catalog.Domain.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/FC.Codeflix.Catalog.Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/FC.Codeflix.Catalog.Domain.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/FC.Codeflix.Catalog.Domain.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/FC.Codeflix.Catalog.Domain.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/FC.Codeflix.Catalog.Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/FC.Codeflix.Catalog.Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/FC.Codeflix.Catalog.Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/FC.Codeflix.Catalog.Domain.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/FC.Codeflix.Catalog.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/FC.Codeflix.Catalog.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/FC.Codeflix.Catalog.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/FC.Codeflix.Catalog.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/ref/FC.Codeflix.Catalog.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/ref/FC.Codeflix.Catalog.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/refint/FC.Codeflix.Catalog.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/refint/FC.Codeflix.Catalog.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/FC.Codeflix.Catalog.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/FC.Codeflix.Catalog.Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/FC.Codeflix.Catalog.Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/FC.Codeflix.Catalog.Domain.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/FC.Codeflix.Catalog.Domain/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/Application/GetCategory/GetCategoryTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/Application/GetCategory/GetCategoryTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net7.0/CoverletSourceRootsMapping_FC.Codeflix.Catalog.UnitTests" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net7.0/CoverletSourceRootsMapping_FC.Codeflix.Catalog.UnitTests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net7.0/FC.Codeflix.Catalog.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net7.0/FC.Codeflix.Catalog.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net7.0/FC.Codeflix.Catalog.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net7.0/FC.Codeflix.Catalog.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net7.0/FC.Codeflix.Catalog.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net7.0/FC.Codeflix.Catalog.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net7.0/FC.Codeflix.Catalog.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net7.0/FC.Codeflix.Catalog.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net7.0/FC.Codeflix.Catalog.UnitTests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net7.0/FC.Codeflix.Catalog.UnitTests.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net7.0/FC.Codeflix.Catalog.UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net7.0/FC.Codeflix.Catalog.UnitTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net7.0/FC.Codeflix.Catalog.UnitTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/bin/Debug/net7.0/FC.Codeflix.Catalog.UnitTests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/Debug/net7.0/FC.Codeflix.Catalog.UnitTests.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/Debug/net7.0/FC.Codeflix.Catalog.UnitTests.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/Debug/net7.0/FC.Codeflix.Catalog.UnitTests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/Debug/net7.0/FC.Codeflix.Catalog.UnitTests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/Debug/net7.0/FC.Codeflix.Catalog.UnitTests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/Debug/net7.0/FC.Codeflix.Catalog.UnitTests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/Debug/net7.0/FC.Codeflix.Catalog.UnitTests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/Debug/net7.0/FC.Codeflix.Catalog.UnitTests.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/Debug/net7.0/FC.Codeflix.Catalog.UnitTests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/Debug/net7.0/FC.Codeflix.Catalog.UnitTests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/Debug/net7.0/FC.Codeflix.Catalog.UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/Debug/net7.0/FC.Codeflix.Catalog.UnitTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/Debug/net7.0/FC.Codeflix.Catalog.UnitTests.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/Debug/net7.0/FC.Codeflix.Catalog.UnitTests.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/Debug/net7.0/FC.Codeflix.Catalog.UnitTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/Debug/net7.0/FC.Codeflix.Catalog.UnitTests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/Debug/net7.0/ref/FC.Codeflix.Catalog.UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/Debug/net7.0/ref/FC.Codeflix.Catalog.UnitTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/Debug/net7.0/refint/FC.Codeflix.Catalog.UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/Debug/net7.0/refint/FC.Codeflix.Catalog.UnitTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/FC.Codeflix.Catalog.UnitTests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/FC.Codeflix.Catalog.UnitTests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/FC.Codeflix.Catalog.UnitTests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/FC.Codeflix.Catalog.UnitTests.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/FC.Codeflix.Catalog.UnitTests.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/FC.Codeflix.Catalog.UnitTests.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +87,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c61f24b31de7167d696176d44677a5f142f8fd6b6e22540176637c9bf7ee178/TestClassException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/FC.Codeflix.Catalog.Application/UseCases/Category/CreateCategory/CreateCategoryOutput.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7415982338a3ccbd2a7a4eb483af627bda727e356b86bb32c5d4f6998f9c/IRequestHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/78c860a4a0696d27b2942ef6996b8ceec84aec6b56a4221bd8ce81cc42954d/RequestHandlerWrapper.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
@@ -35,28 +103,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/fellipehallannysilvabatista/Library/Application Support/JetBrains/Rider2023.1/resharper-host/DecompilerCache",
-      "/Users/fellipehallannysilvabatista/Library/Application Support/JetBrains/Rider2023.1/resharper-host/SourcesCache",
-      "/Users/fellipehallannysilvabatista/.local/share/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\fellipeb\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\fellipeb\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\fellipeb\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -78,6 +146,9 @@
       <workItem from="1685060995282" duration="327000" />
       <workItem from="1685061618642" duration="181000" />
       <workItem from="1685110801184" duration="857000" />
+      <workItem from="1685115849405" duration="712000" />
+      <workItem from="1685120787309" duration="890000" />
+      <workItem from="1685123326855" duration="925000" />
     </task>
     <task id="LOCAL-00001" summary="Fist Commit">
       <created>1685061122992</created>

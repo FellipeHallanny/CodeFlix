@@ -10,3 +10,15 @@
 /Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/refint/FC.Codeflix.Catalog.Domain.dll
 /Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/FC.Codeflix.Catalog.Domain.pdb
 /Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/ref/FC.Codeflix.Catalog.Domain.dll
+C:\Estudo\FullCycle\Codeflix\src\FC.Codeflix.Catalog.Domain\bin\Debug\net7.0\FC.Codeflix.Catalog.Domain.deps.json
+C:\Estudo\FullCycle\Codeflix\src\FC.Codeflix.Catalog.Domain\bin\Debug\net7.0\FC.Codeflix.Catalog.Domain.dll
+C:\Estudo\FullCycle\Codeflix\src\FC.Codeflix.Catalog.Domain\bin\Debug\net7.0\FC.Codeflix.Catalog.Domain.pdb
+C:\Estudo\FullCycle\Codeflix\src\FC.Codeflix.Catalog.Domain\obj\Debug\net7.0\FC.Codeflix.Catalog.Domain.csproj.AssemblyReference.cache
+C:\Estudo\FullCycle\Codeflix\src\FC.Codeflix.Catalog.Domain\obj\Debug\net7.0\FC.Codeflix.Catalog.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Estudo\FullCycle\Codeflix\src\FC.Codeflix.Catalog.Domain\obj\Debug\net7.0\FC.Codeflix.Catalog.Domain.AssemblyInfoInputs.cache
+C:\Estudo\FullCycle\Codeflix\src\FC.Codeflix.Catalog.Domain\obj\Debug\net7.0\FC.Codeflix.Catalog.Domain.AssemblyInfo.cs
+C:\Estudo\FullCycle\Codeflix\src\FC.Codeflix.Catalog.Domain\obj\Debug\net7.0\FC.Codeflix.Catalog.Domain.csproj.CoreCompileInputs.cache
+C:\Estudo\FullCycle\Codeflix\src\FC.Codeflix.Catalog.Domain\obj\Debug\net7.0\FC.Codeflix.Catalog.Domain.dll
+C:\Estudo\FullCycle\Codeflix\src\FC.Codeflix.Catalog.Domain\obj\Debug\net7.0\refint\FC.Codeflix.Catalog.Domain.dll
+C:\Estudo\FullCycle\Codeflix\src\FC.Codeflix.Catalog.Domain\obj\Debug\net7.0\FC.Codeflix.Catalog.Domain.pdb
+C:\Estudo\FullCycle\Codeflix\src\FC.Codeflix.Catalog.Domain\obj\Debug\net7.0\ref\FC.Codeflix.Catalog.Domain.dll

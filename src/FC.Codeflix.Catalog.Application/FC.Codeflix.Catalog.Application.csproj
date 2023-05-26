@@ -23,4 +23,8 @@
   <ItemGroup>
     <PackageReference Include="MediatR" Version="12.0.1" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="UseCases\Category\CreateCategory\CreateCategoryOutput.cs" />
+    <Compile Remove="UseCases\Category\GetCategory\GetCategoryOutput.cs" />
+  </ItemGroup>
 </Project>

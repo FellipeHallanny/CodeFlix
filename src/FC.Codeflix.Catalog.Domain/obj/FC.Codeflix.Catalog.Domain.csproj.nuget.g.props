@@ -4,15 +4,16 @@
     <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
-    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/fellipehallannysilvabatista/.nuget/packages/</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/fellipehallannysilvabatista/.nuget/packages/</NuGetPackageFolders>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\fellipeb\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.6.0</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.5.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <SourceRoot Include="/Users/fellipehallannysilvabatista/.nuget/packages/" />
+    <SourceRoot Include="C:\Users\fellipeb\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgOpenCoverToCoberturaConverter Condition=" '$(PkgOpenCoverToCoberturaConverter)' == '' ">/Users/fellipehallannysilvabatista/.nuget/packages/opencovertocoberturaconverter/0.3.4</PkgOpenCoverToCoberturaConverter>
+    <PkgOpenCoverToCoberturaConverter Condition=" '$(PkgOpenCoverToCoberturaConverter)' == '' ">C:\Users\fellipeb\.nuget\packages\opencovertocoberturaconverter\0.3.4</PkgOpenCoverToCoberturaConverter>
   </PropertyGroup>
 </Project>

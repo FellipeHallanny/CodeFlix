@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "W8kIrba7q+QN3r7NWqGv7IYLNv9VTukIMbMhcTzr04wRwL9yj4gCVeItxe1Y827lZBsgSi4SikAavKHFvvdq0w==",
+  "dgSpecHash": "9Sg9/n0QZoxzGo0X3bpIOtLK+W/YoRjLbXjxbrFV40wGtgAzEfXTQ0oWfIROl+w1UjBLGj7QPUlBBr3fNuT6Aw==",
   "success": true,
   "projectFilePath": "/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Application/FC.Codeflix.Catalog.Application.csproj",
   "expectedPackageFiles": [
+    "/Users/fellipehallannysilvabatista/.nuget/packages/mediatr/12.0.1/mediatr.12.0.1.nupkg.sha512",
+    "/Users/fellipehallannysilvabatista/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/fellipehallannysilvabatista/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "/Users/fellipehallannysilvabatista/.nuget/packages/opencovertocoberturaconverter/0.3.4/opencovertocoberturaconverter.0.3.4.nupkg.sha512"
   ],
   "logs": []

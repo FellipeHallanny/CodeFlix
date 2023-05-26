@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab26a047-e3c4-4c93-bde7-3bc5cd5bcf2f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/Application/GetCategory/GetCategoryTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/Application/GetCategory/GetCategoryTestFixture.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FC.CodeFlix.Catalog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FC.CodeFlix.Catalog/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/FC.Codeflix.Catalog.UnitTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FC.Codeflix.Catalog.UnitTests/FC.Codeflix.Catalog.UnitTests.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +28,9 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2QAXfcn9t4XlBKpVrDgZY7FEOpT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,7 +46,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -71,6 +76,8 @@
       <workItem from="1685044656994" duration="331000" />
       <workItem from="1685059640300" duration="1311000" />
       <workItem from="1685060995282" duration="327000" />
+      <workItem from="1685061618642" duration="181000" />
+      <workItem from="1685110801184" duration="857000" />
     </task>
     <task id="LOCAL-00001" summary="Fist Commit">
       <created>1685061122992</created>
@@ -79,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685061122992</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Arquivos de Projeto">
+      <created>1685061670320</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685061670320</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +130,8 @@
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Fist Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fist Commit" />
+    <MESSAGE value="Arquivos de Projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arquivos de Projeto" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -41,7 +41,6 @@
     <Folder Include="Domain\Entity\Category\" />
     <Folder Include="Common\" />
     <Folder Include="Domain\Validation\" />
-    <Folder Include="Application\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\src\FC.Codeflix.Catalog.Domain\FC.Codeflix.Catalog.Domain.csproj" />

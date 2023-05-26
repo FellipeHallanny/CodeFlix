@@ -1,0 +1,15 @@
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Application/bin/Debug/net7.0/FC.Codeflix.Catalog.Application.deps.json
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Application/bin/Debug/net7.0/FC.Codeflix.Catalog.Application.dll
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Application/bin/Debug/net7.0/FC.Codeflix.Catalog.Application.pdb
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Application/bin/Debug/net7.0/FC.Codeflix.Catalog.Domain.dll
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Application/bin/Debug/net7.0/FC.Codeflix.Catalog.Domain.pdb
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/FC.Codeflix.Catalog.Application.csproj.AssemblyReference.cache
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/FC.Codeflix.Catalog.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/FC.Codeflix.Catalog.Application.AssemblyInfoInputs.cache
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/FC.Codeflix.Catalog.Application.AssemblyInfo.cs
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/FC.Codeflix.Catalog.Application.csproj.CoreCompileInputs.cache
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/FC.Codeflix.Catalog.Application.csproj.CopyComplete
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/FC.Codeflix.Catalog.Application.dll
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/refint/FC.Codeflix.Catalog.Application.dll
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/FC.Codeflix.Catalog.Application.pdb
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Application/obj/Debug/net7.0/ref/FC.Codeflix.Catalog.Application.dll

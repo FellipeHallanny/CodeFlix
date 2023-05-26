@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Entity\" />
+    <None Remove="Exceptions\" />
+    <None Remove="SeedWork\" />
+    <None Remove="Validation\" />
+    <None Remove="Repository\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entity\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="SeedWork\" />
+    <Folder Include="Validation\" />
+    <Folder Include="Repository\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="OpenCoverToCoberturaConverter" Version="0.3.4" />
+  </ItemGroup>
+</Project>

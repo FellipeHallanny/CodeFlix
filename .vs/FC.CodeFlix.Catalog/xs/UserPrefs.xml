@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{D6F64282-C9BF-4567-BA67-1E775ED2A9C4}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="tests/FC.Codeflix.Catalog.UnitTests/Application/CreateCategory/CreateCategoryTest.cs">
+    <Files>
+      <File FileName="tests/FC.Codeflix.Catalog.UnitTests/Application/CreateCategory/CreateCategoryTest.cs" Line="5" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FC.Codeflix.Catalog" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="FC.Codeflix.Catalog.Domain" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.tests.FC.Codeflix.Catalog.UnitTests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

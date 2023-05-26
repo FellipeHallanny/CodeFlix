@@ -1,0 +1,12 @@
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Domain/bin/Debug/net7.0/FC.Codeflix.Catalog.Domain.deps.json
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Domain/bin/Debug/net7.0/FC.Codeflix.Catalog.Domain.dll
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Domain/bin/Debug/net7.0/FC.Codeflix.Catalog.Domain.pdb
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/FC.Codeflix.Catalog.Domain.csproj.AssemblyReference.cache
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/FC.Codeflix.Catalog.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/FC.Codeflix.Catalog.Domain.AssemblyInfoInputs.cache
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/FC.Codeflix.Catalog.Domain.AssemblyInfo.cs
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/FC.Codeflix.Catalog.Domain.csproj.CoreCompileInputs.cache
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/FC.Codeflix.Catalog.Domain.dll
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/refint/FC.Codeflix.Catalog.Domain.dll
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/FC.Codeflix.Catalog.Domain.pdb
+/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Domain/obj/Debug/net7.0/ref/FC.Codeflix.Catalog.Domain.dll

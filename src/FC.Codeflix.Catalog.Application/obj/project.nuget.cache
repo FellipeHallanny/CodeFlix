@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "W8kIrba7q+QN3r7NWqGv7IYLNv9VTukIMbMhcTzr04wRwL9yj4gCVeItxe1Y827lZBsgSi4SikAavKHFvvdq0w==",
+  "success": true,
+  "projectFilePath": "/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Application/FC.Codeflix.Catalog.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/fellipehallannysilvabatista/.nuget/packages/opencovertocoberturaconverter/0.3.4/opencovertocoberturaconverter.0.3.4.nupkg.sha512"
+  ],
+  "logs": []
+}

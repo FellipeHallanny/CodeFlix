@@ -1,39 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Estudo\\FullCycle\\Codeflix\\tests\\FC.Codeflix.Catalog.UnitTests\\FC.Codeflix.Catalog.UnitTests.csproj": {}
+    "/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/FC.Codeflix.Catalog.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Estudo\\FullCycle\\Codeflix\\src\\FC.Codeflix.Catalog.Application\\FC.Codeflix.Catalog.Application.csproj": {
+    "/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Application/FC.Codeflix.Catalog.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Estudo\\FullCycle\\Codeflix\\src\\FC.Codeflix.Catalog.Application\\FC.Codeflix.Catalog.Application.csproj",
+        "projectUniqueName": "/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Application/FC.Codeflix.Catalog.Application.csproj",
         "projectName": "FC.Codeflix.Catalog.Application",
-        "projectPath": "C:\\Estudo\\FullCycle\\Codeflix\\src\\FC.Codeflix.Catalog.Application\\FC.Codeflix.Catalog.Application.csproj",
-        "packagesPath": "C:\\Users\\fellipeb\\.nuget\\packages\\",
-        "outputPath": "C:\\Estudo\\FullCycle\\Codeflix\\src\\FC.Codeflix.Catalog.Application\\obj\\",
+        "projectPath": "/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Application/FC.Codeflix.Catalog.Application.csproj",
+        "packagesPath": "/Users/fellipehallannysilvabatista/.nuget/packages/",
+        "outputPath": "/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Application/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\fellipeb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/fellipehallannysilvabatista/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.miisy.me/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Estudo\\FullCycle\\Codeflix\\src\\FC.Codeflix.Catalog.Domain\\FC.Codeflix.Catalog.Domain.csproj": {
-                "projectPath": "C:\\Estudo\\FullCycle\\Codeflix\\src\\FC.Codeflix.Catalog.Domain\\FC.Codeflix.Catalog.Domain.csproj"
+              "/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Domain/FC.Codeflix.Catalog.Domain.csproj": {
+                "projectPath": "/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Domain/FC.Codeflix.Catalog.Domain.csproj"
               }
             }
           }
@@ -69,33 +63,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Estudo\\FullCycle\\Codeflix\\src\\FC.Codeflix.Catalog.Domain\\FC.Codeflix.Catalog.Domain.csproj": {
+    "/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Domain/FC.Codeflix.Catalog.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Estudo\\FullCycle\\Codeflix\\src\\FC.Codeflix.Catalog.Domain\\FC.Codeflix.Catalog.Domain.csproj",
+        "projectUniqueName": "/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Domain/FC.Codeflix.Catalog.Domain.csproj",
         "projectName": "FC.Codeflix.Catalog.Domain",
-        "projectPath": "C:\\Estudo\\FullCycle\\Codeflix\\src\\FC.Codeflix.Catalog.Domain\\FC.Codeflix.Catalog.Domain.csproj",
-        "packagesPath": "C:\\Users\\fellipeb\\.nuget\\packages\\",
-        "outputPath": "C:\\Estudo\\FullCycle\\Codeflix\\src\\FC.Codeflix.Catalog.Domain\\obj\\",
+        "projectPath": "/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Domain/FC.Codeflix.Catalog.Domain.csproj",
+        "packagesPath": "/Users/fellipehallannysilvabatista/.nuget/packages/",
+        "outputPath": "/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Domain/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\fellipeb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/fellipehallannysilvabatista/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.miisy.me/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -134,43 +122,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Estudo\\FullCycle\\Codeflix\\tests\\FC.Codeflix.Catalog.UnitTests\\FC.Codeflix.Catalog.UnitTests.csproj": {
+    "/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/FC.Codeflix.Catalog.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Estudo\\FullCycle\\Codeflix\\tests\\FC.Codeflix.Catalog.UnitTests\\FC.Codeflix.Catalog.UnitTests.csproj",
+        "projectUniqueName": "/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/FC.Codeflix.Catalog.UnitTests.csproj",
         "projectName": "FC.Codeflix.Catalog.UnitTests",
-        "projectPath": "C:\\Estudo\\FullCycle\\Codeflix\\tests\\FC.Codeflix.Catalog.UnitTests\\FC.Codeflix.Catalog.UnitTests.csproj",
-        "packagesPath": "C:\\Users\\fellipeb\\.nuget\\packages\\",
-        "outputPath": "C:\\Estudo\\FullCycle\\Codeflix\\tests\\FC.Codeflix.Catalog.UnitTests\\obj\\",
+        "projectPath": "/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/FC.Codeflix.Catalog.UnitTests.csproj",
+        "packagesPath": "/Users/fellipehallannysilvabatista/.nuget/packages/",
+        "outputPath": "/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/tests/FC.Codeflix.Catalog.UnitTests/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\fellipeb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/fellipehallannysilvabatista/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.miisy.me/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Estudo\\FullCycle\\Codeflix\\src\\FC.Codeflix.Catalog.Application\\FC.Codeflix.Catalog.Application.csproj": {
-                "projectPath": "C:\\Estudo\\FullCycle\\Codeflix\\src\\FC.Codeflix.Catalog.Application\\FC.Codeflix.Catalog.Application.csproj"
+              "/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Application/FC.Codeflix.Catalog.Application.csproj": {
+                "projectPath": "/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Application/FC.Codeflix.Catalog.Application.csproj"
               },
-              "C:\\Estudo\\FullCycle\\Codeflix\\src\\FC.Codeflix.Catalog.Domain\\FC.Codeflix.Catalog.Domain.csproj": {
-                "projectPath": "C:\\Estudo\\FullCycle\\Codeflix\\src\\FC.Codeflix.Catalog.Domain\\FC.Codeflix.Catalog.Domain.csproj"
+              "/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Domain/FC.Codeflix.Catalog.Domain.csproj": {
+                "projectPath": "/Users/fellipehallannysilvabatista/Cursos/Full Cycle/CodeFlix/FC.CodeFlix.Catalog/src/FC.Codeflix.Catalog.Domain/FC.Codeflix.Catalog.Domain.csproj"
               }
             }
           }
@@ -238,7 +220,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
         }
       }
     }

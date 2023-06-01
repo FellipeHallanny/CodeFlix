@@ -129,6 +129,7 @@ public class UpdateCategoryTest
             It.IsAny<CancellationToken>()), Times.Once);
     }
 
+
     [Theory(DisplayName = nameof(ThrowWhenCantUpdateCategory))]
     [Trait("Application ", "UpdateCategory - Use Case")]
     [MemberData(nameof(UpdateCategoryTestDataGenerator.GetInvalidInputs),

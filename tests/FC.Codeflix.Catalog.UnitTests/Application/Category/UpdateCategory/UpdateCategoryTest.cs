@@ -1,12 +1,12 @@
 using FC.Codeflix.Catalog.Application.Exceptions;
 using FC.Codeflix.Catalog.Application.UseCases.Category.Common;
-using FC.Codeflix.Catalog.Domain.Entity;
 using FC.Codeflix.Catalog.Domain.Exceptions;
 using FluentAssertions;
 using Moq;
 using Xunit;
 using UseCases = FC.Codeflix.Catalog.Application.UseCases.Category.UpdateCategory;
-namespace FC.Codeflix.Catalog.UnitTests.Application.UpdateCategory;
+namespace FC.Codeflix.Catalog.UnitTests.Application.Category.UpdateCategory;
+using Entidade = FC.Codeflix.Catalog.Domain.Entity;
 
 [Collection(nameof(UpdateCategoryTestFixture))]
 public class UpdateCategoryTest
@@ -22,7 +22,7 @@ public class UpdateCategoryTest
     [Trait("Application ", "UpdateCategory - Use Case")]
     [MemberData(nameof(UpdateCategoryTestDataGenerator.GetCategoriesToUpdate),
         parameters: 10, MemberType = typeof(UpdateCategoryTestDataGenerator))]
-    public async Task UpdateCategory(Category exampleCategory, UseCases.UpdateCategoryInput input)
+    public async Task UpdateCategory(Entidade.Category exampleCategory, UseCases.UpdateCategoryInput input)
     {
         var repositoryMock = _fixture.GetRepositoryMock();
         var unitOfWorkMock = _fixture.GetUnitOfWorkMock();
@@ -50,7 +50,7 @@ public class UpdateCategoryTest
     [Trait("Application ", "UpdateCategory - Use Case")]
     [MemberData(nameof(UpdateCategoryTestDataGenerator.GetCategoriesToUpdate),
         parameters: 10, MemberType = typeof(UpdateCategoryTestDataGenerator))]
-    public async Task UpdateCategoryWithoutProvidingIsActive(Category exampleCategory, UseCases.UpdateCategoryInput exampleInput)
+    public async Task UpdateCategoryWithoutProvidingIsActive(Entidade.Category exampleCategory, UseCases.UpdateCategoryInput exampleInput)
     {
         var input = new UseCases.UpdateCategoryInput(exampleInput.Id, exampleInput.Name, exampleInput.Description);
         
@@ -81,7 +81,7 @@ public class UpdateCategoryTest
     [Trait("Application ", "UpdateCategory - Use Case")]
     [MemberData(nameof(UpdateCategoryTestDataGenerator.GetCategoriesToUpdate),
         parameters: 10, MemberType = typeof(UpdateCategoryTestDataGenerator))]
-    public async Task UpdateCategoryOnlyName(Category exampleCategory, UseCases.UpdateCategoryInput exampleInput)
+    public async Task UpdateCategoryOnlyName(Entidade.Category exampleCategory, UseCases.UpdateCategoryInput exampleInput)
     {
         var input = new UseCases.UpdateCategoryInput(exampleInput.Id, exampleInput.Name);
         

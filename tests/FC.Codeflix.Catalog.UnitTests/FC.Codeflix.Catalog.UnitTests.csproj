@@ -36,6 +36,7 @@
     <None Remove="Application\CreateCategoryTest\" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Application\Category\" />
     <Folder Include="Domain\" />
     <Folder Include="Domain\Entity\" />
     <Folder Include="Domain\Entity\Category\" />

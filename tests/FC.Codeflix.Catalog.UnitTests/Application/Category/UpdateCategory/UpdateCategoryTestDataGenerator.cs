@@ -1,11 +1,24 @@
-namespace FC.Codeflix.Catalog.UnitTests.Application.CreateCategory;
-public class CreateCategoryTestDataGenerator
+namespace FC.Codeflix.Catalog.UnitTests.Application.Category.UpdateCategory;
+
+public class UpdateCategoryTestDataGenerator
 {
+    public static IEnumerable<Object[]> GetCategoriesToUpdate(int time = 10)
+    {
+        var fixture = new UpdateCategoryTestFixture();
+        for(var indice = 0; indice < time; indice++)
+        {
+            var exempleCategory = fixture.GetExampleCategory();
+            var exempleInput = fixture.GetValidInput(exempleCategory.Id);
+            
+            yield return new object[] { exempleCategory, exempleInput };
+        }
+    }
+    
     public static IEnumerable<object[]> GetInvalidInputs(int times = 12)
     {
-        var fixture = new CreateCategoryTestFixture();
+        var fixture = new UpdateCategoryTestFixture();
         var invalidInputsList = new List<object[]>();
-        var totalInvalidCases = 4;
+        var totalInvalidCases = 3;
 
         for (int index = 0; index < times; index++)
         {
@@ -24,12 +37,6 @@ public class CreateCategoryTestDataGenerator
                     });
                     break;
                 case 2:
-                    invalidInputsList.Add(new object[] {
-                        fixture.GetInvalidInputCategoryNull(),
-                        "Description should not be null"
-                    });
-                    break;
-                case 3:
                     invalidInputsList.Add(new object[] {
                         fixture.GetInvalidInputTooLongDescription(),
                         "Description should be less or equal 10000 characters long"

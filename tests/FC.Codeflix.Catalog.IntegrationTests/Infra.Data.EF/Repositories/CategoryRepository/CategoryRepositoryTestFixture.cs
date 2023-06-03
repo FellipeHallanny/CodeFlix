@@ -49,4 +49,10 @@ public class CategoryRepositoryTestFixture : BaseFixture
                 .UseInMemoryDatabase("integration-tests-db")
                 .Options
         );
+
+    public List<Category> GetExampleCategoryList(int length = 10)
+        => Enumerable.Range(1, length)
+            .Select(_ => GetExampleCategory())
+            .ToList();
+
 }

@@ -1,3 +1,4 @@
+using FC.Codeflix.Catalog.Application.Exceptions;
 using FC.Codeflix.Catalog.Infra.Data.EF;
 using FluentAssertions;
 using Xunit;
@@ -15,7 +16,7 @@ public class CategoryRepositoryTest
         _fixture = fixture;
     }
     
-    [Fact(DisplayName = "")]
+    [Fact(DisplayName = nameof(Insert))]
     [Trait("Integration/Infra.Data", "CategoryRepository - Repositories")]
     public async Task Insert()
     {
@@ -33,5 +34,46 @@ public class CategoryRepositoryTest
         dbCategory.IsActive.Should().Be(exampleCategory.IsActive);
         dbCategory.CreatedAt.Should().Be(exampleCategory.CreatedAt);
         
+    }
+    
+    [Fact(DisplayName = nameof(Get))]
+    [Trait("Integration/Infra.Data", "CategoryRepository - Repositories")]
+    public async Task Get()
+    {
+        CodeflixCatalogDbContext dbContext = _fixture.CreateDbContext();
+        var exampleCategory = _fixture.GetExampleCategory();
+        var exampleCategoryList = _fixture.GetExampleCategoryList(15);
+        exampleCategoryList.Add(exampleCategory);
+        await dbContext.AddRangeAsync(exampleCategoryList);
+        await dbContext.SaveChangesAsync(CancellationToken.None);
+        var categoryRepository = new Repository.CategoryRepository(dbContext);
+        
+
+        var dbCategory = await categoryRepository.Get(exampleCategory.Id, CancellationToken.None);
+        
+        dbCategory.Should().NotBeNull();
+        dbCategory.Id.Should().Be(exampleCategory.Id);
+        dbCategory!.Name.Should().Be(exampleCategory.Name);
+        dbCategory.Description.Should().Be(exampleCategory.Description);
+        dbCategory.IsActive.Should().Be(exampleCategory.IsActive);
+        dbCategory.CreatedAt.Should().Be(exampleCategory.CreatedAt);
+        
+    }
+    
+    [Fact(DisplayName = nameof(GetThrowIfNotFound))]
+    [Trait("Integration/Infra.Data", "CategoryRepository - Repositories")]
+    public async Task GetThrowIfNotFound()
+    {
+        CodeflixCatalogDbContext dbContext = _fixture.CreateDbContext();
+        var exempleCategoryId = Guid.NewGuid();
+        await dbContext.AddRangeAsync(_fixture.GetExampleCategoryList(15));
+        await dbContext.SaveChangesAsync(CancellationToken.None);
+        var categoryRepository = new Repository.CategoryRepository(dbContext);
+        
+
+        var task = async () => await categoryRepository.Get(exempleCategoryId, CancellationToken.None);
+        
+        await task.Should().ThrowAsync<NotFoundException>()
+            .WithMessage($"Category '{exempleCategoryId}' not found.");
     }
 }

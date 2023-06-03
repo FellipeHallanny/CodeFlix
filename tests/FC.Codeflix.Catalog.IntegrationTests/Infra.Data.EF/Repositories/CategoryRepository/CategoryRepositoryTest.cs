@@ -103,4 +103,24 @@ public class CategoryRepositoryTest
         dbCategory.CreatedAt.Should().Be(exampleCategory.CreatedAt);
         
     }
+    
+    [Fact(DisplayName = nameof(Delete))]
+    [Trait("Integration/Infra.Data", "CategoryRepository - Repositories")]
+    public async Task Delete()
+    {
+        CodeflixCatalogDbContext dbContext = _fixture.CreateDbContext();
+        var exampleCategory = _fixture.GetExampleCategory();
+        var exampleCategoryList = _fixture.GetExampleCategoryList(15);
+        exampleCategoryList.Add(exampleCategory);
+        await dbContext.AddRangeAsync(exampleCategoryList);
+        await dbContext.SaveChangesAsync(CancellationToken.None);
+        var categoryRepository = new Repository.CategoryRepository(dbContext);
+        
+        await categoryRepository.Delete(exampleCategory, CancellationToken.None);
+        await dbContext.SaveChangesAsync(CancellationToken.None);
+        
+        var dbCategory = await  (_fixture.CreateDbContext()).Categories.FindAsync(exampleCategory.Id);
+        dbCategory.Should().BeNull();
+
+    }
 }

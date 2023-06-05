@@ -43,16 +43,29 @@ public class CategoryRepositoryTestFixture : BaseFixture
             GetValidCategoryDescriprion(),
             GetRandomBoolean());
 
-    public CodeflixCatalogDbContext CreateDbContext()
-        => new CodeflixCatalogDbContext(
+    public CodeflixCatalogDbContext CreateDbContext(bool preserveDatabase = false)
+    {
+        var context = new CodeflixCatalogDbContext(
             new DbContextOptionsBuilder<CodeflixCatalogDbContext>()
                 .UseInMemoryDatabase("integration-tests-db")
                 .Options
         );
+        if (preserveDatabase == false)
+            context.Database.EnsureDeleted();
+        return context;
+    }
+
 
     public List<Category> GetExampleCategoryList(int length = 10)
         => Enumerable.Range(1, length)
             .Select(_ => GetExampleCategory())
             .ToList();
 
+    public List<Category> GetExampleCategoriesListWithNames(List<string> names)
+        => names.Select(name =>
+        {
+            var category = GetExampleCategory();
+            category.Update(name);
+            return category;
+        }).ToList();
 }

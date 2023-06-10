@@ -5,18 +5,20 @@ using FC.Codeflix.Catalog.Domain.SeedWork.SearchableRepository;
 using Microsoft.EntityFrameworkCore;
 
 namespace FC.Codeflix.Catalog.Infra.Data.EF.Repositories;
+
 public class CategoryRepository
     : ICategoryRepository
 {
     private readonly CodeflixCatalogDbContext _context;
-    private DbSet<Category> _categories 
+
+    private DbSet<Category> _categories
         => _context.Set<Category>();
 
-    public CategoryRepository(CodeflixCatalogDbContext context) 
+    public CategoryRepository(CodeflixCatalogDbContext context)
         => _context = context;
 
     public async Task Insert(
-        Category aggregate, 
+        Category aggregate,
         CancellationToken cancellationToken
     )
         => await _categories.AddAsync(aggregate, cancellationToken);
@@ -38,13 +40,13 @@ public class CategoryRepository
         => Task.FromResult(_categories.Remove(aggregate));
 
     public async Task<SearchOutput<Category>> Search(
-        SearchInput input, 
+        SearchInput input,
         CancellationToken cancellationToken)
     {
         var toSkip = (input.Page - 1) * input.PerPage;
         var query = _categories.AsNoTracking();
         query = AddOrderToQuery(query, input.OrderBy, input.Order);
-        if(!String.IsNullOrWhiteSpace(input.Search))
+        if (!String.IsNullOrWhiteSpace(input.Search))
             query = query.Where(x => x.Name.Contains(input.Search));
         var total = await query.CountAsync();
         var items = await query

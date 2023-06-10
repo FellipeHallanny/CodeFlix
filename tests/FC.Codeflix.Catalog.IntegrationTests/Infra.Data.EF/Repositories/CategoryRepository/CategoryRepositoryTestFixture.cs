@@ -13,7 +13,8 @@ namespace FC.Codeflix.Catalog.IntegrationTests.Infra.Data.EF.Repositories.Catego
 [CollectionDefinition(nameof(CategoryRepositoryTestFixture))]
 public class CategoryRepositoryTestFixtureCollection
     : ICollectionFixture<CategoryRepositoryTestFixture>
-{}
+{
+}
 
 public class CategoryRepositoryTestFixture
     : BaseFixture
@@ -61,8 +62,8 @@ public class CategoryRepositoryTestFixture
         }).ToList();
 
     public List<Category> ClonecategoriesListOrdered(
-        List<Category> categoriesList, 
-        string orderBy, 
+        List<Category> categoriesList,
+        string orderBy,
         SearchOrder order)
     {
         var listClone = new List<Category>(categoriesList);
@@ -83,8 +84,8 @@ public class CategoryRepositoryTestFixture
     {
         var context = new CodeflixCatalogDbContext(
             new DbContextOptionsBuilder<CodeflixCatalogDbContext>()
-            .UseInMemoryDatabase("integration-tests-db")
-            .Options
+                .UseInMemoryDatabase("integration-tests-db")
+                .Options
         );
         if (preserveData == false)
             context.Database.EnsureDeleted();

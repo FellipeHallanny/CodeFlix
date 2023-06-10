@@ -1,4 +1,3 @@
-
 using Microsoft.EntityFrameworkCore;
 using System.Threading;
 using FluentAssertions;
@@ -19,7 +18,7 @@ public class CategoryRepositoryTest
 {
     private readonly CategoryRepositoryTestFixture _fixture;
 
-    public CategoryRepositoryTest(CategoryRepositoryTestFixture fixture) 
+    public CategoryRepositoryTest(CategoryRepositoryTestFixture fixture)
         => _fixture = fixture;
 
     [Fact(DisplayName = nameof(Insert))]
@@ -57,7 +56,7 @@ public class CategoryRepositoryTest
         );
 
         var dbCategory = await categoryRepository.Get(
-            exampleCategory.Id, 
+            exampleCategory.Id,
             CancellationToken.None);
 
         dbCategory.Should().NotBeNull();
@@ -152,7 +151,7 @@ public class CategoryRepositoryTest
         output.PerPage.Should().Be(searchInput.PerPage);
         output.Total.Should().Be(exampleCategoriesList.Count);
         output.Items.Should().HaveCount(exampleCategoriesList.Count);
-        foreach(Category outputItem in output.Items)
+        foreach (Category outputItem in output.Items)
         {
             var exampleItem = exampleCategoriesList.Find(
                 category => category.Id == outputItem.Id
@@ -197,7 +196,7 @@ public class CategoryRepositoryTest
     )
     {
         CodeflixCatalogDbContext dbContext = _fixture.CreateDbContext();
-        var exampleCategoriesList = 
+        var exampleCategoriesList =
             _fixture.GetExampleCategoriesList(quantityCategoriesToGenerate);
         await dbContext.AddRangeAsync(exampleCategoriesList);
         await dbContext.SaveChangesAsync(CancellationToken.None);
@@ -245,7 +244,8 @@ public class CategoryRepositoryTest
     {
         CodeflixCatalogDbContext dbContext = _fixture.CreateDbContext();
         var exampleCategoriesList =
-            _fixture.GetExampleCategoriesListWithNames(new List<string>() { 
+            _fixture.GetExampleCategoriesListWithNames(new List<string>()
+            {
                 "Action",
                 "Horror",
                 "Horror - Robots",
@@ -318,7 +318,7 @@ public class CategoryRepositoryTest
         output.PerPage.Should().Be(searchInput.PerPage);
         output.Total.Should().Be(exampleCategoriesList.Count);
         output.Items.Should().HaveCount(exampleCategoriesList.Count);
-        for(int indice = 0; indice < expectedOrderedList.Count; indice++)
+        for (int indice = 0; indice < expectedOrderedList.Count; indice++)
         {
             var expectedItem = expectedOrderedList[indice];
             var outputItem = output.Items[indice];

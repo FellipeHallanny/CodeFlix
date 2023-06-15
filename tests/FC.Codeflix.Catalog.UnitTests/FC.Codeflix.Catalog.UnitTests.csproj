@@ -34,9 +34,9 @@
     <None Remove="Domain\Validation\" />
     <None Remove="Application\" />
     <None Remove="Application\CreateCategoryTest\" />
+    <None Remove="Application\Category\ListCategory\**" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Application\Category\" />
     <Folder Include="Domain\" />
     <Folder Include="Domain\Entity\" />
     <Folder Include="Domain\Entity\Category\" />
@@ -49,5 +49,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Application\CreateCategoryTest\Create.cs" />
+    <Compile Remove="Application\Category\ListCategory\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="Application\Category\ListCategory\**" />
   </ItemGroup>
 </Project>

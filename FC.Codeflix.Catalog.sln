@@ -1,21 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1705.6
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CB1392B5-C97B-4F00-ACB6-B2819B9E355E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{998A1519-D9F4-4912-911C-E99387339E74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FC.Codeflix.Catalog.Application", "src\FC.Codeflix.Catalog.Application\FC.Codeflix.Catalog.Application.csproj", "{2DC4C69C-89EA-42B7-BAC1-DC85542426A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FC.Codeflix.Catalog.Application", "src\FC.Codeflix.Catalog.Application\FC.Codeflix.Catalog.Application.csproj", "{2DC4C69C-89EA-42B7-BAC1-DC85542426A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FC.Codeflix.Catalog.UnitTests", "tests\FC.Codeflix.Catalog.UnitTests\FC.Codeflix.Catalog.UnitTests.csproj", "{D6F64282-C9BF-4567-BA67-1E775ED2A9C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FC.Codeflix.Catalog.UnitTests", "tests\FC.Codeflix.Catalog.UnitTests\FC.Codeflix.Catalog.UnitTests.csproj", "{D6F64282-C9BF-4567-BA67-1E775ED2A9C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FC.Codeflix.Catalog.Domain", "src\FC.Codeflix.Catalog.Domain\FC.Codeflix.Catalog.Domain.csproj", "{45D01038-B27D-4D63-BFE3-D0B68C02E6A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FC.Codeflix.Catalog.Domain", "src\FC.Codeflix.Catalog.Domain\FC.Codeflix.Catalog.Domain.csproj", "{45D01038-B27D-4D63-BFE3-D0B68C02E6A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FC.Codeflix.Catalog.IntegrationTests", "tests\FC.Codeflix.Catalog.IntegrationTests\FC.Codeflix.Catalog.IntegrationTests.csproj", "{09493728-CAB4-4242-AD79-678C7267274E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FC.Codeflix.Catalog.IntegrationTests", "tests\FC.Codeflix.Catalog.IntegrationTests\FC.Codeflix.Catalog.IntegrationTests.csproj", "{09493728-CAB4-4242-AD79-678C7267274E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FC.Codeflix.Catalog.Infra.Data.EF", "src\FC.Codeflix.Catalog.Infra.Data.EF\FC.Codeflix.Catalog.Infra.Data.EF.csproj", "{E7EDAF7E-2321-4FE2-AD5F-0F6D48CBCA40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FC.Codeflix.Catalog.Infra.Data.EF", "src\FC.Codeflix.Catalog.Infra.Data.EF\FC.Codeflix.Catalog.Infra.Data.EF.csproj", "{E7EDAF7E-2321-4FE2-AD5F-0F6D48CBCA40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FC.Codeflix.Catalog.EndToEndTests", "tests\FC.Codeflix.Catalog.EndToEndTests\FC.Codeflix.Catalog.EndToEndTests.csproj", "{98375A1B-9477-4BBE-A604-0BEF222C1D88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,12 +45,13 @@ Global
 		{E7EDAF7E-2321-4FE2-AD5F-0F6D48CBCA40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7EDAF7E-2321-4FE2-AD5F-0F6D48CBCA40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7EDAF7E-2321-4FE2-AD5F-0F6D48CBCA40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98375A1B-9477-4BBE-A604-0BEF222C1D88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98375A1B-9477-4BBE-A604-0BEF222C1D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98375A1B-9477-4BBE-A604-0BEF222C1D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98375A1B-9477-4BBE-A604-0BEF222C1D88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E46B8460-BF33-44EB-A6FB-8D0FC4A9EE3E}
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2DC4C69C-89EA-42B7-BAC1-DC85542426A6} = {CB1392B5-C97B-4F00-ACB6-B2819B9E355E}
@@ -56,5 +59,9 @@ Global
 		{45D01038-B27D-4D63-BFE3-D0B68C02E6A0} = {CB1392B5-C97B-4F00-ACB6-B2819B9E355E}
 		{09493728-CAB4-4242-AD79-678C7267274E} = {998A1519-D9F4-4912-911C-E99387339E74}
 		{E7EDAF7E-2321-4FE2-AD5F-0F6D48CBCA40} = {CB1392B5-C97B-4F00-ACB6-B2819B9E355E}
+		{98375A1B-9477-4BBE-A604-0BEF222C1D88} = {998A1519-D9F4-4912-911C-E99387339E74}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E46B8460-BF33-44EB-A6FB-8D0FC4A9EE3E}
 	EndGlobalSection
 EndGlobal

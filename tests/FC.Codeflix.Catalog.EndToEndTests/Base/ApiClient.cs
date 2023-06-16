@@ -1,7 +1,5 @@
 using System.Text;
 using System.Text.Json;
-using Newtonsoft.Json;
-using System.Text.Json;
 using JsonSerializer = System.Text.Json.JsonSerializer;
 
 namespace FC.Codeflix.Catalog.EndToEndTests.Base;

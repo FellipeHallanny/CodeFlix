@@ -21,7 +21,7 @@ public class CreateCategoryApiTest
     public async Task CreateCategory()
     {
         var input = _fixture.GetExempleInput();
-        var (response, output) = await _fixture.ApiClient.Post<CategoryModelOutput>("/categories",input);
+        var (response, output) = await _fixture.ApiClient.Post<CategoryModelOutput>("/Categories",input);
         
         
         response.Should().NotBeNull();

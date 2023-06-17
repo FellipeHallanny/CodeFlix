@@ -15,13 +15,17 @@ public class CategoryRepository
         => _context.Set<Category>();
 
     public CategoryRepository(CodeflixCatalogDbContext context)
-        => _context = context;
+    {
+        _context = context;
+    }
 
     public async Task Insert(
         Category aggregate,
         CancellationToken cancellationToken
     )
-        => await _categories.AddAsync(aggregate, cancellationToken);
+    {
+        await _categories.AddAsync(aggregate, cancellationToken);
+    }
 
     public async Task<Category> Get(Guid id, CancellationToken cancellationToken)
     {

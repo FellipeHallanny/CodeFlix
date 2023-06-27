@@ -23,38 +23,53 @@ public class ApiClient
                 "application/json"
             )
         );
-        
-        var outputString = await reponse.Content.ReadAsStringAsync();
-        TOutput? output = null;
-            if (!string.IsNullOrWhiteSpace(outputString))
-                output = JsonSerializer.Deserialize<TOutput>(outputString, new JsonSerializerOptions{PropertyNameCaseInsensitive = true});
+
+        TOutput? output = await GetOutput<TOutput>(reponse);
 
         return (reponse, output);
     }
 
-    public async Task<(HttpResponseMessage?, TOutput?)> Get<TOutput>(string route) 
+    public async Task<(HttpResponseMessage?, TOutput?)> Get<TOutput>(string route)
         where TOutput : class
     {
         var reponse = await _httpClient.GetAsync(route);
-        
-        var outputString = await reponse.Content.ReadAsStringAsync();
-        TOutput? output = null;
-            if (!string.IsNullOrWhiteSpace(outputString))
-                output = JsonSerializer.Deserialize<TOutput>(outputString, new JsonSerializerOptions{PropertyNameCaseInsensitive = true});
+
+        TOutput? output = await GetOutput<TOutput>(reponse);
 
         return (reponse, output);
     }
 
-    public async Task<(HttpResponseMessage?, TOutput?)> Delete<TOutput>(string route) 
+    public async Task<(HttpResponseMessage?, TOutput?)> Delete<TOutput>(string route)
         where TOutput : class
     {
         var reponse = await _httpClient.DeleteAsync(route);
-        
+        TOutput? output = await GetOutput<TOutput>(reponse);
+
+        return (reponse, output);
+    }
+
+    public async Task<(HttpResponseMessage?, TOutput?)> Put<TOutput>(string route, object payload) where TOutput : class
+    {
+        var reponse = await _httpClient.PutAsync(
+            route,
+            new StringContent(
+                JsonSerializer.Serialize(payload),
+                Encoding.UTF8,
+                "application/json"
+            )
+        );
+
+        TOutput? output = await GetOutput<TOutput>(reponse);
+
+        return (reponse, output);
+    }
+
+    private async Task<TOutput?> GetOutput<TOutput>(HttpResponseMessage reponse) where TOutput : class
+    {
         var outputString = await reponse.Content.ReadAsStringAsync();
         TOutput? output = null;
         if (!string.IsNullOrWhiteSpace(outputString))
-            output = JsonSerializer.Deserialize<TOutput>(outputString, new JsonSerializerOptions{PropertyNameCaseInsensitive = true});
-
-        return (reponse, output);
+            output = JsonSerializer.Deserialize<TOutput>(outputString, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        return output;
     }
 }

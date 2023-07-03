@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.WebUtilities;
 using System.Text;
 using System.Text.Json;
 using JsonSerializer = System.Text.Json.JsonSerializer;
@@ -29,15 +30,17 @@ public class ApiClient
         return (reponse, output);
     }
 
-    public async Task<(HttpResponseMessage?, TOutput?)> Get<TOutput>(string route)
+    public async Task<(HttpResponseMessage?, TOutput?)> Get<TOutput>(string route, object? queryStringParametersObject = null)
         where TOutput : class
     {
-        var reponse = await _httpClient.GetAsync(route);
+
+        var url = PrepareGetRoute(route, queryStringParametersObject);
+        var reponse = await _httpClient.GetAsync(url);
 
         TOutput? output = await GetOutput<TOutput>(reponse);
 
         return (reponse, output);
-    }
+    }    
 
     public async Task<(HttpResponseMessage?, TOutput?)> Delete<TOutput>(string route)
         where TOutput : class
@@ -71,5 +74,16 @@ public class ApiClient
         if (!string.IsNullOrWhiteSpace(outputString))
             output = JsonSerializer.Deserialize<TOutput>(outputString, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
         return output;
+    }
+
+    private string PrepareGetRoute(string route, object? queryStringParametersObject)
+    {
+        if(queryStringParametersObject is null)
+            return route;
+
+        var parametersjason = JsonSerializer.Serialize(queryStringParametersObject);
+        var parametersDictionary = Newtonsoft.Json.JsonConvert.DeserializeObject<Dictionary<string, string>>(parametersjason);
+        return QueryHelpers.AddQueryString(route, parametersDictionary!);
+
     }
 }
